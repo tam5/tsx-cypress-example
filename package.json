@@ -1,0 +1,36 @@
+{
+  "name": "tsx-cypress-example",
+  "version": "0.0.0",
+  "description": "Quick start for Cypress + TypeScript",
+  "scripts": {
+    "start": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tam5/tsx-cypress-example.git"
+  },
+  "keywords": [
+    "cypress",
+    "typescript",
+    "tsx"
+  ],
+  "author": "tam5 <arimiller92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tam5/tsx-cypress-example/issues"
+  },
+  "homepage": "https://github.com/tam5/tsx-cypress-example#readme",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "4.1.0",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "cypress": "3.3.2",
+    "cypress-react-unit-test": "^2.4.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "ts-loader": "6.0.4",
+    "typescript": "3.5.2",
+    "webpack": "4.35.2"
+  }
+}
